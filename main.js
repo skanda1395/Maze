@@ -10,7 +10,7 @@ window.addEventListener('deviceorientation', (event) => {
     gamma.innerText = Math.floor(event.gamma);
 
     // move ball
-    ball.position.top = `${beta}px`;
-    ball.position.left = `${gamma}px`
+    ball.style.top = `${beta}px`;
+    ball.style.left = `${gamma}px`
 });
   
